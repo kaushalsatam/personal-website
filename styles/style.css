@@ -92,6 +92,7 @@ h1 > span{
 
 #skillsPage{
     height: 100vh;
+    width: 100%;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 50% 50%;
