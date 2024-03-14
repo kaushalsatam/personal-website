@@ -176,3 +176,9 @@ a{
 a:link{
     text-decoration: none;
 }
+
+/* Responsive */
+
+@media (max-width: 430px) {
+    
+}
