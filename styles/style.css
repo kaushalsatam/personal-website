@@ -84,6 +84,11 @@ h1 > span{
     grid-template-columns: 50% 50%;
 }
 
+
+#aboutPage img{
+    width: 610px;
+}
+
 .about-me{
     display: flex;
     justify-content: center;
@@ -212,4 +217,17 @@ a:link{
         border: 10px solid white;
         border-radius: 50%;
     }
+
+    /* about */
+    #aboutPage{
+        height: fit-content;
+        display: grid;
+        grid-template-rows: auto 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    #aboutPage img{
+        width: 430px;
+    }
+
 }
