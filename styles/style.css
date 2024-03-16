@@ -103,6 +103,10 @@ h1 > span{
     grid-template-columns: 50% 50%;
 }
 
+.skills .image{
+    width: 610px;
+}
+
 .skill-container{
     height: 100vh;
     display: flex;
@@ -230,4 +234,15 @@ a:link{
         width: 430px;
     }
 
+    #skillsPage{
+        height: fit-content;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 1fr;
+    }
+
+    .skills .image{
+        width: 430px;
+    }
 }
